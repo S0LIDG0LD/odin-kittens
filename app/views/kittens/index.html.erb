@@ -3,7 +3,7 @@
 <%= link_to "New Kitten", new_kitten_path %>
 
 <ul>
-  <% @kitten.each do |kitten| %>
+  <% @kittens.each do |kitten| %>
     <li>
       <%= link_to kitten.name, kitten_path(kitten) %>
       -
